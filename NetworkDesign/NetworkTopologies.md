@@ -2,14 +2,6 @@
 
 Network protocol & designs determine the efficient travel path for Data transmitted
 
-Heres a list of curical Steps taken when Designing a Network
-
--  Gathering Network Request
--  Selectng the right Topology (Topology; layouut of how Network devices are connected)
--  Consider Network Design Principles; Scalability, Resilience & security.
--  Choose Network Hardware.
--  Document the Network design (Via Network Diagrams;  Network Diagrams show how devices & components of a network connect and interact with each other).
--  Test and validate 
 
 ---
 ## Common Physical Network Topologies
@@ -41,7 +33,7 @@ Network protocol and design determine the most efficient path for data to travel
 
 <details>
 <summary>🚌 <b>Bus Topology</b></summary>
-<br>
+//
 
 Uses a single cable that runs through the network, called the **bus**. Data is sent as a broadcast and received by all connected devices.
 
