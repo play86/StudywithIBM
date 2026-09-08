@@ -1,11 +1,3 @@
->
-
-<p align="center">
-  <img width="700" alt="Network-OSI_OVERVIEW" src="https://github.com/user-attachments/assets/a32630de-a953-4a21-a33a-0079341f5c3d">
-</p>
-
-
-
 # 🌐 Networks & OSI Model — Study Notes
 
 > **CompTIA A+ | 220-1101 Core 1 | Domain 2: Networking**  
@@ -22,6 +14,8 @@
 - [A Closer Look at Each Layer](#a-closer-look-at-each-layer)
 - [How Data Travels — Encapsulation](#how-data-travels--encapsulation)
 - [Why the OSI Model Matters](#why-the-osi-model-matters)
+- [OSI Troubleshooting Cheat Sheet](#osi-troubleshooting-cheat-sheet)
+- [Common Ports — Grouped by Use Case](#common-ports--grouped-by-use-case)
 
 ---
 
@@ -203,20 +197,16 @@ Bits → Frame → Packet → Segment → Data
 
 ---
 
+## OSI Troubleshooting Cheat Sheet
 
-
-## Common Ports (Quick Reference)
-
-| Port | Protocol |
-|---|---|
-| 80 | HTTP |
-| 443 | HTTPS |
-| 22 | SSH |
-| 21 | FTP |
-| 53 | DNS |
-| 67/68 | DHCP |
-| 25 | SMTP |
+| Layer | Abbr | Question to Ask |
+|---|---|---|
+| 7 – Application | APP | Can the application connect? |
+| 6 – Presentation | PRES | Is data in the right format? |
+| 5 – Session | SESS | Is the session established? |
+| 4 – Transport | TRANS | Is data getting through end-to-end? |
+| 3 – Network | NET | Is there a routing path? |
+| 2 – Data Link | DL | Are frames being delivered locally? |
+| 1 – Physical | PHY | Is the cable/link working? |
 
 ---
-
-*Study notes by **Dominion** · IT Support & Networking Journey · [github.com/play86](https://github.com/play86)*
